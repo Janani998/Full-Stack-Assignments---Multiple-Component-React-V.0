@@ -5,8 +5,8 @@ class App extends Component {
   render() {
     return (
       <>
-        <h1> Online Voting Application</h1>
-        <p>
+        <h1 data-ns-test="project-name"> Online Voting Application</h1>
+        <p data-ns-test="project-description">
           The application provides a platform for the users to vote in the
           election from the romote places using their devices. The users must
           first register in the site with their details including voter's card,
